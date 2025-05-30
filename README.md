@@ -2,16 +2,6 @@
 
 This is a simple backend logging server built with **Node.js**, **Express**, and **Nodemon**.  
 It allows real-time tracking of user activity (like searches or clicks) from a frontend application.
-## 📤 Usage
-
-Once your server is running, you can send log data using a POST request to:
-
-http://localhost:3000/log
-
-### 🔁 Example Request
-
-From frontend JavaScript:
-```javascript
 fetch("http://localhost:3000/log", {
   method: "POST",
   headers: {
@@ -23,15 +13,18 @@ fetch("http://localhost:3000/log", {
   })
 });
 
+---
 
 ## 🚀 Features
+
 - Receives POST requests and logs activity
 - Saves logs to `activity-log.txt`
 - 
 ---
 
-### ✅ **2. LICENSE Section**
-Put this at the bottom of your `README.md` file:
+### ✅ **2. LICENSE Section (MIT)**
+
+Add this at the very end of your `README.md`:
 
 ```markdown
 ## 📝 License
@@ -41,12 +34,17 @@ See the [LICENSE](LICENSE) file for full details.
 
 - CORS-enabled and JSON-compatible
 
-## 🛠 Tech Stack
-- Node.js
-- Express
+---
+
+## 🧰 Tech Stack
+
+- Node.js  
+- Express  
 - Nodemon
 
-## 📦 Setup
+---
+
+## ⚙️ Setup
 
 ```bash
 git clone https://github.com/your-username/book-analytics-backend.git
