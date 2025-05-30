@@ -1,23 +1,22 @@
-# book-analytics-backend
-A lightweight Node.js and Express backend for logging user activity (clicks, searches, and more) in real time, built for book analytics dashboards.
-# 🔍 Realtime Logging Server (Node.js + Express)
+# 📚 Book Analytics Backend
 
-This project is a lightweight backend logging server built with **Node.js**, **Express**, and **Nodemon**. It receives log data from the frontend (e.g., search queries, user actions) and stores them in a text file for later analysis.
+This is a simple backend logging server built with **Node.js**, **Express**, and **Nodemon**.  
+It allows real-time tracking of user activity (like searches or clicks) from a frontend application.
 
----
-
-### 🚀 Features
-
-- Accepts `POST` requests at `/log`
+## 🚀 Features
+- Receives POST requests and logs activity
 - Saves logs to `activity-log.txt`
-- Uses `Nodemon` for automatic server restarts
-- CORS enabled for frontend integration
+- CORS-enabled and JSON-compatible
 
----
+## 🛠 Tech Stack
+- Node.js
+- Express
+- Nodemon
 
-### 📦 Installation
+## 📦 Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/your-username/book-analytics-backend.git
+cd book-analytics-backend
 npm install
+nodemon server.js
